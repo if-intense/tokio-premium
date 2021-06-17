@@ -1,0 +1,25 @@
+var vm = new Vue({
+  el: '#app',
+  data: {
+    items: [
+      {name: 'TOKIO IE PREMIUM SHAMPOO', size: "500", img:'img/product001-pr500.jpeg', price: 1000, taxPrice: 1100, purchaseLink: 'https://ifing-beauty.com/products/detail/88', stock: true },
+      {name: 'TOKIO IE PREMIUM SHAMPOO', size: "200", img:'img/product002-pr200.png', price: 2000, taxPrice: 2200, purchaseLink: 'https://ifing-beauty.com/products/detail/86', stock: true},
+      {name: 'TOKIO IE PREMIUM TREATMENT', size: "500", img:'img/product003-pr-tr500.jpeg', price: 3000, taxPrice: 3300, purchaseLink: 'https://ifing-beauty.com/products/detail/92', stock: true},
+      {name: 'TOKIO IE PREMIUM TREATMENT', size: "200", img:'img/product004-pr-tr200.jpeg', price: 3300, taxPrice: 3630, purchaseLink: 'https://ifing-beauty.com/products/detail/89', stock: true},
+      {name: 'TOKIO IE PREMIUM AIR.TREATMENT', size: "100", img:'img/product005-out.oil.jpeg', price: 2400, taxPrice: 2640, purchaseLink: 'https://ifing-beauty.com/products/detail/90', stock: true},
+      // {name: 'TOKIO INKARAMI PR TR.OIL', img:'img/product001.png', price: 1800, taxPrice: 1980, purchaseLink: 'https://ifing-beauty.com/products/detail/91', stock: true},
+    ]
+  }
+});
+
+
+var tri = new Vue({
+  el: '#new',
+  data: {
+    products: [
+      {name: 'TOKIO IE PREMIUM', description: '保湿力抜群しっとりタイプのヘアケア', img: 'img/img-pr-sh200.jpeg', tname: 'AIR.TREATMENT', desctitle: 'ミストタイプのアウトバスTR', description2: 'ケラチン・シルク配合で、保水と潤いを与えながら、髪を補修します。ブロー前にご使用ください。', img2: 'img/air-treatment.jpeg', repair: 4, texture: 4, bubble: 4, desc1: 'TOKIOインカラミのケラチンを使用', desc2: 'シルク・コラーゲン配合で高い保湿力', desc3: 'しっとり感とまとまりが欲しい方に'},
+      {name: 'TOKIO IE PLATINUM', description: 'さらっと軽いタイプのヘアケア', img: 'img/img-pl-sh200.jpeg', tname: 'AIR.TREATMENT', desctitle: 'オイルタイプのアウトバスTR', description2: '保湿成分配合で滑らかさ・軽さとまとまりの実感。アイロンやコテを使用する際にもおすすめです。', img2: 'img/air-treatment.jpeg', repair: 3, texture: 3, bubble: 4, desc1: 'TOKIOインカラミのケラチンを使用', desc2: '豊富な泡立ちで髪を柔らかく', desc3: 'さらっとした指通りが欲しい方に'},
+    ]
+  }
+});
+
