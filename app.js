@@ -2,11 +2,11 @@ var vm = new Vue({
   el: '#app',
   data: {
     items: [
-      {name: 'TOKIO IE PREMIUM SHAMPOO', size: "500", img:'img/product001-pr500.jpeg', price: 1000, taxPrice: 1100, purchaseLink: 'https://ifing-beauty.com/products/detail/88', stock: true },
-      {name: 'TOKIO IE PREMIUM SHAMPOO', size: "200", img:'img/product002-pr200.png', price: 2000, taxPrice: 2200, purchaseLink: 'https://ifing-beauty.com/products/detail/86', stock: true},
-      {name: 'TOKIO IE PREMIUM TREATMENT', size: "500", img:'img/product003-pr-tr500.jpeg', price: 3000, taxPrice: 3300, purchaseLink: 'https://ifing-beauty.com/products/detail/92', stock: true},
-      {name: 'TOKIO IE PREMIUM TREATMENT', size: "200", img:'img/product004-pr-tr200.jpeg', price: 3300, taxPrice: 3630, purchaseLink: 'https://ifing-beauty.com/products/detail/89', stock: true},
-      {name: 'TOKIO IE PREMIUM AIR.TREATMENT', size: "100", img:'img/product005-out.oil.jpeg', price: 2400, taxPrice: 2640, purchaseLink: 'https://ifing-beauty.com/products/detail/90', stock: true},
+      {name: 'プレミアム シャンプー', size: "500", img:'img/product001-pr500.jpeg', price: 5800, taxPrice: 6380, purchaseLink: 'https://ifing-beauty.com/products/detail/88', stock: true },
+      {name: 'プレミアム シャンプー', size: "200", img:'img/product002-pr200.png', price: 2900, taxPrice: 3190, purchaseLink: 'https://ifing-beauty.com/products/detail/86', stock: true},
+      {name: 'プレミアム トリートメント', size: "500", img:'img/product003-pr-tr500.jpeg', price: 5500, taxPrice: 6050, purchaseLink: 'https://ifing-beauty.com/products/detail/92', stock: true},
+      {name: 'プレミアム トリートメント', size: "200", img:'img/product004-pr-tr200.jpeg', price: 2800, taxPrice: 3080, purchaseLink: 'https://ifing-beauty.com/products/detail/89', stock: true},
+      {name: 'プレミアム エアートリートメント', size: "100", img:'img/product005-out.oil.jpeg', price: 2800, taxPrice: 3080, purchaseLink: 'https://ifing-beauty.com/products/detail/90', stock: true},
       // {name: 'TOKIO INKARAMI PR TR.OIL', img:'img/product001.png', price: 1800, taxPrice: 1980, purchaseLink: 'https://ifing-beauty.com/products/detail/91', stock: true},
     ]
   }
