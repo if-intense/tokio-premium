@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.br_on {
+  display: none;
+}
+
 body, html {
   overflow-x: hidden;
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
@@ -121,6 +125,7 @@ section {
   font-size: 1em;
   margin-top: 3vh;
   text-align: center;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
 }
 .section01 .section01-text p strong.product {
   font-size: 1.25em;
@@ -155,6 +160,8 @@ section {
 .section02 .section02-text p {
   padding: 10px 20px;
   line-height: 2em;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-size: 1.25em;
 }
 .section02 .section02-text h6 {
   font-size: 2em;
@@ -317,8 +324,60 @@ footer .footer-contents p a:hover {
   }
 }
 @media (max-width: 500px) {
+  .jumbotron {
+    padding-top: 66.66667%;
+  }
+  .jumbotron .logo {
+    width: 16%;
+  }
+
+  .br_on {
+    display: block;
+  }
+
+  .strip-section .model h3 {
+    font-size: 1.1em;
+  }
+  .strip-section h2 {
+    font-size: 1.5em;
+  }
+
+  .section01 .section01-title {
+    width: 100%;
+  }
+  .section01 .section01-title h2 {
+    font-size: 1.4em;
+  }
+  .section01 .section01-text {
+    padding: 20px 0;
+  }
+  .section01 .section01-text p {
+    font-size: 0.9em;
+    line-height: 2.5em;
+  }
+
+  .section02 h2 {
+    font-size: 1.4em;
+  }
+  .section02 .section02-text {
+    padding: 40px 0;
+  }
+  .section02 .section02-text p {
+    padding: 10px 0;
+    font-size: 1em;
+  }
+  .section02 .child-text .img-area {
+    margin: 0 auto 40px;
+  }
+
   .section03 {
-    padding: 0 20px;
+    padding: 40px 5px;
+  }
+  .section03 .section03-text .items-text p {
+    font-size: 0.8em;
+  }
+  .section03 .section03-text h5 {
+    font-size: 0.9em;
   }
 }
 
