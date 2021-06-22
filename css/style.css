@@ -169,6 +169,18 @@ section {
   margin: 4vh auto;
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
 }
+.section02 .img-gallery {
+  position: relative;
+}
+.section02 .img-gallery p.bottom-right {
+  position: absolute;
+  bottom: -10px;
+  right: 5px;
+  background: white;
+  padding: 3px 5px;
+  font-size: 0.7em;
+  font-family: "メイリオ";
+}
 
 .section03 {
   background: linear-gradient(135deg, #fff6a3 0%, #fffbd9 100%);
@@ -215,27 +227,17 @@ section {
   font-size: 1.25em;
   margin-bottom: 5vh;
 }
-.section04 .table-area {
-  overflow-x: auto;
+.section04 .img-gallery {
+  position: relative;
 }
-.section04 .table-area table {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0vh auto;
-  table-layout: fixed;
+.section04 .img-gallery p.bottom-right {
+  position: absolute;
+  bottom: -10px;
+  right: 5px;
   background: white;
-  font-family: "Noto Sans JP", sans-serif;
-}
-.section04 .table-area table tr.outer {
-  border-top: 1px solid #000;
-}
-.section04 .table-area table tr.outer td.tableimg {
-  width: calc(100% * 1 / 6);
-  max-width: 150px;
-}
-.section04 .table-area table tr.outer td.tabletext {
-  width: calc(100% * 1 / 3);
-  max-width: 300px;
+  padding: 3px 5px;
+  font-size: 0.7em;
+  font-family: "メイリオ";
 }
 
 .card {
@@ -259,6 +261,15 @@ section {
 .card .card-body h3 span {
   font-size: 1.5em;
   color: red;
+}
+.card .subscription {
+  position: absolute;
+  top: 2%;
+  left: 3%;
+  background: red;
+  padding: 0 5px;
+  font-size: 1.5em;
+  color: #fff;
 }
 
 footer {
@@ -300,27 +311,6 @@ footer .footer-contents p a:hover {
   .section04 h3 {
     font-size: 1.25em;
     margin-bottom: 5vh;
-  }
-  .section04 .table-area {
-    overflow-x: auto;
-    padding: 0;
-    width: 85%;
-  }
-  .section04 .table-area table {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0vh auto;
-    table-layout: fixed;
-    background: white;
-  }
-  .section04 .table-area table tr.outer {
-    border-top: 1px solid #000;
-  }
-  .section04 .table-area table tr.outer td.tableimg {
-    width: 150px;
-  }
-  .section04 .table-area table tr.outer td.tabletext {
-    width: 300px;
   }
 }
 @media (max-width: 500px) {
