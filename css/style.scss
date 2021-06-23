@@ -6,6 +6,7 @@ $smallPC: 992px;
 $iPad: 768px;
 $iPadLandscape: 1024px;
 $iphoneMax: 520px;
+$iphone12: 428px;
 
 
 .br_on {
@@ -477,6 +478,10 @@ footer {
       }
     }
   }
-
 }
 
+@media (max-width: $iphone12) {
+  .jumbotron {
+    height:47vh;
+  }
+}

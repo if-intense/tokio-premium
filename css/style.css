@@ -390,5 +390,10 @@ footer .footer-contents p a:hover {
     font-size: 0.9em;
   }
 }
+@media (max-width: 428px) {
+  .jumbotron {
+    height: 47vh;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
