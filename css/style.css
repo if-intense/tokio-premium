@@ -32,7 +32,7 @@ nav .logo {
 }
 
 .jumbotron {
-  padding-top: 41.6667%;
+  height: 100vh;
   background: url("../img/tokio-premium-banner.png") no-repeat;
   background-position: center;
   background-size: cover;
@@ -50,7 +50,7 @@ section {
 }
 
 .strip-section {
-  padding: 0 0 3vh;
+  height: 100vh;
   background: url(../img/pattern-wallpaper.jpg) no-repeat;
   background-position: center;
   background-size: cover;
@@ -124,7 +124,6 @@ section {
   line-height: 2em;
   font-size: 1em;
   margin-top: 3vh;
-  text-align: center;
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
 }
 .section01 .section01-text p strong.product {
@@ -141,19 +140,24 @@ section {
 .section02 {
   background: #d5c473;
   background: linear-gradient(196deg, rgba(213, 196, 115, 0.71892507) 0%, #fff6a3 100%);
-  padding: 10vh 0 0;
+  height: 100%;
+  min-height: 830px;
 }
 .section02 h2 {
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
 }
 .section02 .section02-text {
-  padding: 40px 20px;
+  padding: 20px;
 }
 .section02 .section02-text .child-text {
   margin: 5vh auto;
 }
-.section02 .section02-text h6 {
-  margin: 6vh auto;
+.section02 .section02-text .child-text .img-area .img {
+  width: 50%;
+  margin: 0 auto;
+}
+.section02 .section02-text h6 span {
+  margin: 3vh 10px;
   color: white;
   text-shadow: 1px 1px 3px #B51423;
 }
@@ -161,7 +165,7 @@ section {
   padding: 10px 20px;
   line-height: 2em;
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 .section02 .section02-text h6 {
   font-size: 2em;
@@ -313,23 +317,32 @@ footer .footer-contents p a:hover {
     margin-bottom: 5vh;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 992px) {
   .jumbotron {
-    padding-top: 66.66667%;
+    height: 70vh;
+  }
+}
+@media (max-width: 520px) {
+  .jumbotron {
+    height: 50vh;
   }
   .jumbotron .logo {
-    width: 16%;
+    width: 18%;
+    left: 3%;
   }
 
   .br_on {
     display: block;
   }
 
+  .strip-section {
+    height: 60vh;
+  }
   .strip-section .model h3 {
-    font-size: 1.1em;
+    font-size: 0.9em;
   }
   .strip-section h2 {
-    font-size: 1.5em;
+    font-size: 1.35em;
   }
 
   .section01 .section01-title {
@@ -344,20 +357,27 @@ footer .footer-contents p a:hover {
   .section01 .section01-text p {
     font-size: 0.9em;
     line-height: 2.5em;
+    padding: 0 20px;
   }
 
   .section02 h2 {
     font-size: 1.4em;
   }
   .section02 .section02-text {
-    padding: 40px 0;
+    padding: 20px 0;
   }
   .section02 .section02-text p {
     padding: 10px 0;
     font-size: 1em;
   }
-  .section02 .child-text .img-area {
-    margin: 0 auto 40px;
+  .section02 .section02-text .child-text .img-area {
+    margin: 0 auto;
+  }
+  .section02 .section02-text .child-text .img-area .img {
+    width: 100%;
+  }
+  .section02 .section02-text h6 {
+    font-size: 1.25em;
   }
 
   .section03 {
