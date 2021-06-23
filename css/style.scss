@@ -70,7 +70,7 @@ section {
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
   .model {
     width: 60%;
-    margin: 20px auto;
+    margin: 0 auto;
     h3 {
       // color: red;
       color:#7C6F64;
@@ -134,7 +134,7 @@ section {
   // background:url(../img/img002.jpg) no-repeat;
   // background-position: center;
   // background-size:cover;
-  padding:5vh 0;
+  padding:4vh 0;
   .section01-title {
     width:50%;
     margin:0 auto;
@@ -182,7 +182,7 @@ section {
     padding: 20px;
     .child-text {
       // background: #fff;
-      margin:5vh auto; 
+      margin:2vh auto; 
       .img-area {
         .img {
           width:50%;
@@ -191,8 +191,9 @@ section {
       }
     }
     h6 {
+      padding-bottom:1vh;
       span {
-        margin:3vh 10px;
+        margin:0 10px;
       color:white;
       text-shadow: 1px 1px 3px #B51423;
 
@@ -208,7 +209,7 @@ section {
     h6 {
       font-size: 2em;
       text-align: center;
-      margin:4vh auto;
+      margin:0 auto;
       font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
     }
   }
@@ -251,8 +252,8 @@ section {
       font-weight: normal;
       font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
       strong {
-        font-size: 1.25em;
-        padding: 0 5px;
+        font-size: 1em;
+        padding: 0 2px;
         text-shadow: 1px 1px 1px #fff;
       }
       strong.light {
@@ -400,7 +401,7 @@ footer {
   .jumbotron {
    height: 50vh;
    .logo {
-     width:18%;
+     width:13%;
      left:3%;
    }
   }
@@ -412,14 +413,14 @@ footer {
     display: block;
   }
   .strip-section {
-    height: 60vh;
+    height: 58vh;
     .model {
       h3 {
         font-size:0.9em;
       }
     }
     h2 {
-      font-size:1.35em;
+      font-size:1.65em;
     }
   }
 
@@ -452,7 +453,8 @@ footer {
       }
       .child-text {
         .img-area {
-          margin: 0 auto;
+          margin: 0px auto;
+          padding-bottom:40px;
           .img {
             width:100%; 
           }
@@ -474,14 +476,24 @@ footer {
         }
       }
       h5 {
-        font-size:0.9em;
+        font-size:1em;
       }
     }
   }
+
+  
 }
 
 @media (max-width: $iphone12) {
   .jumbotron {
-    height:47vh;
+    height:44vh;
   }
+
+  // .section01 {
+  //   .section01-text {
+  //     .tokio-ie {
+  //       height:30vh;
+  //     }
+  //   }
+  // }
 }

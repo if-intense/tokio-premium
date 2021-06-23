@@ -58,7 +58,7 @@ section {
 }
 .strip-section .model {
   width: 60%;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 .strip-section .model h3 {
   color: #7C6F64;
@@ -105,7 +105,7 @@ section {
 }
 .section01 {
   background: antiquewhite;
-  padding: 5vh 0;
+  padding: 4vh 0;
 }
 .section01 .section01-title {
   width: 50%;
@@ -150,14 +150,17 @@ section {
   padding: 20px;
 }
 .section02 .section02-text .child-text {
-  margin: 5vh auto;
+  margin: 2vh auto;
 }
 .section02 .section02-text .child-text .img-area .img {
   width: 50%;
   margin: 0 auto;
 }
+.section02 .section02-text h6 {
+  padding-bottom: 1vh;
+}
 .section02 .section02-text h6 span {
-  margin: 3vh 10px;
+  margin: 0 10px;
   color: white;
   text-shadow: 1px 1px 3px #B51423;
 }
@@ -170,7 +173,7 @@ section {
 .section02 .section02-text h6 {
   font-size: 2em;
   text-align: center;
-  margin: 4vh auto;
+  margin: 0 auto;
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
 }
 .section02 .img-gallery {
@@ -209,8 +212,8 @@ section {
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
 }
 .section03 .section03-text h5 strong {
-  font-size: 1.25em;
-  padding: 0 5px;
+  font-size: 1em;
+  padding: 0 2px;
   text-shadow: 1px 1px 1px #fff;
 }
 .section03 .section03-text h5 strong.light {
@@ -327,7 +330,7 @@ footer .footer-contents p a:hover {
     height: 50vh;
   }
   .jumbotron .logo {
-    width: 18%;
+    width: 13%;
     left: 3%;
   }
 
@@ -336,13 +339,13 @@ footer .footer-contents p a:hover {
   }
 
   .strip-section {
-    height: 60vh;
+    height: 58vh;
   }
   .strip-section .model h3 {
     font-size: 0.9em;
   }
   .strip-section h2 {
-    font-size: 1.35em;
+    font-size: 1.65em;
   }
 
   .section01 .section01-title {
@@ -371,7 +374,8 @@ footer .footer-contents p a:hover {
     font-size: 1em;
   }
   .section02 .section02-text .child-text .img-area {
-    margin: 0 auto;
+    margin: 0px auto;
+    padding-bottom: 40px;
   }
   .section02 .section02-text .child-text .img-area .img {
     width: 100%;
@@ -387,12 +391,12 @@ footer .footer-contents p a:hover {
     font-size: 0.8em;
   }
   .section03 .section03-text h5 {
-    font-size: 0.9em;
+    font-size: 1em;
   }
 }
 @media (max-width: 428px) {
   .jumbotron {
-    height: 47vh;
+    height: 44vh;
   }
 }
 
