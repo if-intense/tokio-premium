@@ -327,7 +327,7 @@ footer .footer-contents p a:hover {
 }
 @media (max-width: 520px) {
   .jumbotron {
-    height: 50vh;
+    height: 45vh;
   }
   .jumbotron .logo {
     width: 13%;
