@@ -1,6 +1,6 @@
 $tokioGray: #71797E !important;
 
-
+$bigPC: 1478px;
 $regularPC: 1200px;
 $smallPC: 992px;
 $iPad: 768px;
@@ -109,22 +109,7 @@ section {
 
 }
 
-@media (max-width: $iPad) {
-  .strip-section {
-    .model {
-      width:100%;
-     h3 {
-      color: black;
-     }
-    }
-  }
-  .tokio {
-    background: url(../img/tokio-pr-bg.png) no-repeat;
-    background-position: center;
-    background-size: cover;
-    height:30%;
-  }
-}
+
 
 
 
@@ -365,6 +350,44 @@ footer {
 
 
 
+
+
+@media (max-width:$bigPC) {
+  .section03 {
+    .section03-text {
+      .items-text {
+        h2 {
+          font-size:1.15em;
+        }
+      }
+    }
+  } 
+}
+
+@media (max-width:1372px) {
+  .section03 {
+    .section03-text {
+      .items-text {
+        h2 {
+          font-size:1.05em;
+        }
+      }
+    }
+  } 
+}
+
+@media (max-width:1264px) {
+  .section03 {
+    .section03-text {
+      .items-text {
+        h2 {
+          font-size:1em;
+        }
+      }
+    }
+  } 
+}
+
 @media (max-width: $regularPC) {
 
   .disp_on_regularPC {
@@ -377,23 +400,99 @@ footer {
     }
   }
   .section04 {
-  background: #F5DADF;
-  h2 {
-    font-size:1.5em;
+    background: #F5DADF;
+    h2 {
+      font-size:1.5em;
+    }
+    h3 {
+      font-size:1.25em;
+      margin-bottom: 5vh;
+    }
   }
-  h3 {
-    font-size:1.25em;
-    margin-bottom: 5vh;
-  }
-  
-}
+
+  .section03 {
+    .section03-text {
+      .items-text {
+        h2 {
+          font-size:0.9em;
+        }
+        p {
+          font-size:0.9em;
+        }
+      }
+    }
+  } 
+
 }
 
+@media (max-width: 1104px) {
+
+  .section03 {
+    .section03-text {
+      .items-text {
+        h2 {
+          font-size:0.85em;
+        }
+        p {
+          font-size:0.85em;
+        }
+      }
+    }
+  } 
+}
+
+@media (max-width: 1050px) {
+
+  .section03 {
+    .section03-text {
+      .items-text {
+        h2 {
+          font-size:0.8em;
+        }
+        p {
+          font-size:0.8em;
+        }
+      }
+    }
+  } 
+}
+// 992px
 @media (max-width: $smallPC) {
 
   .jumbotron {
     height:70vh;
   }
+}
+
+// 768px
+@media (max-width: $iPad) {
+  .strip-section {
+    .model {
+      width:100%;
+     h3 {
+      color: black;
+     }
+    }
+  }
+  .tokio {
+    background: url(../img/tokio-pr-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:30%;
+  }
+
+  .section03 {
+    .section03-text {
+      .items-text {
+        h2 {
+          font-size:0.75em;
+        }
+        p {
+          font-size:0.8em;
+        }
+      }
+    }
+  } 
 }
 
 @media (max-width: $iphoneMax ) {
@@ -470,6 +569,9 @@ footer {
     padding: 40px 5px;
     .section03-text {
       .items-text {
+        h2 {
+          font-size:1em;
+        }
         p {
           font-size:0.8em;
           

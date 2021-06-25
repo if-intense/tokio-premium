@@ -88,21 +88,6 @@ section {
     height: 30%;
   }
 }
-@media (max-width: 768px) {
-  .strip-section .model {
-    width: 100%;
-  }
-  .strip-section .model h3 {
-    color: black;
-  }
-
-  .tokio {
-    background: url(../img/tokio-pr-bg.png) no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 30%;
-  }
-}
 .section01 {
   background: antiquewhite;
   padding: 4vh 0;
@@ -300,6 +285,21 @@ footer .footer-contents p a:hover {
   border-bottom: 1px solid #71797E !important;
 }
 
+@media (max-width: 1478px) {
+  .section03 .section03-text .items-text h2 {
+    font-size: 1.15em;
+  }
+}
+@media (max-width: 1372px) {
+  .section03 .section03-text .items-text h2 {
+    font-size: 1.05em;
+  }
+}
+@media (max-width: 1264px) {
+  .section03 .section03-text .items-text h2 {
+    font-size: 1em;
+  }
+}
 @media (max-width: 1200px) {
   .disp_on_regularPC {
     display: block;
@@ -319,10 +319,55 @@ footer .footer-contents p a:hover {
     font-size: 1.25em;
     margin-bottom: 5vh;
   }
+
+  .section03 .section03-text .items-text h2 {
+    font-size: 0.9em;
+  }
+  .section03 .section03-text .items-text p {
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 1104px) {
+  .section03 .section03-text .items-text h2 {
+    font-size: 0.85em;
+  }
+  .section03 .section03-text .items-text p {
+    font-size: 0.85em;
+  }
+}
+@media (max-width: 1050px) {
+  .section03 .section03-text .items-text h2 {
+    font-size: 0.8em;
+  }
+  .section03 .section03-text .items-text p {
+    font-size: 0.8em;
+  }
 }
 @media (max-width: 992px) {
   .jumbotron {
     height: 70vh;
+  }
+}
+@media (max-width: 768px) {
+  .strip-section .model {
+    width: 100%;
+  }
+  .strip-section .model h3 {
+    color: black;
+  }
+
+  .tokio {
+    background: url(../img/tokio-pr-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30%;
+  }
+
+  .section03 .section03-text .items-text h2 {
+    font-size: 0.75em;
+  }
+  .section03 .section03-text .items-text p {
+    font-size: 0.8em;
   }
 }
 @media (max-width: 520px) {
@@ -386,6 +431,9 @@ footer .footer-contents p a:hover {
 
   .section03 {
     padding: 40px 5px;
+  }
+  .section03 .section03-text .items-text h2 {
+    font-size: 1em;
   }
   .section03 .section03-text .items-text p {
     font-size: 0.8em;
